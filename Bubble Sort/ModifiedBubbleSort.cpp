@@ -8,7 +8,8 @@ void swap(int *ptr1, int *ptr2)
     *ptr1 = *ptr2;
     *ptr2 = temp;
 }
-
+// T(n) = O(n^2) --> Average case
+// T(n) = O(n) --> Best case
 void BubbleSort(int arr[], int size, int *steps)
 {
     for(int i=0; i<size; i++)
